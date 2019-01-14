@@ -4,7 +4,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * Write a description of class spring here.
  * 
- * @author (Jordan Hanna and Lawrence Huang) 
+ * @author (John Park, Jordan Hanna and Lawrence Huang) 
  * @version (8.00.81.35)
  */
 public class JellyBlock extends Actor
