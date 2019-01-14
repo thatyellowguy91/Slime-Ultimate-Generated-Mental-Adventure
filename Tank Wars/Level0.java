@@ -8,7 +8,7 @@ public class Level0 extends World
     }
     public void prepare(){
       tank mytank = new tank();
-      addObject(mytank, 300, 160);
+      addObject(mytank, 400, 160);
       Play myPlay = new Play();
       addObject(myPlay,400,350);
       

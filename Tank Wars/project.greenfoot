@@ -1,5 +1,7 @@
 #Greenfoot project file
-class.Level0.image=bluerock.jpg
+class.Level0.image=galaxy-wallpaper-11.jpg
+class.Play.image=cooltext311800519860148.png
+class.tank.image=cooltext311801347324366.png
 dependency1.from=Level2
 dependency1.to=lose
 dependency1.type=UsesDependency
@@ -704,5 +706,6 @@ target9.x=0
 target9.y=0
 version=3.0.0
 width=1936
+world.lastInstantiated=Level0
 xPosition=-8
 yPosition=-8
