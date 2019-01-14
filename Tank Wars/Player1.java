@@ -19,7 +19,7 @@ public class Player1 extends Player
        }
        
        
-       //menembak
+   
        if ("space".equalsIgnoreCase(Greenfoot.getKey())){
            if (Level1.Peluru>0){
                Greenfoot.playSound("bullet.wav");
