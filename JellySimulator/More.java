@@ -15,6 +15,6 @@ public class More extends Actor
     public void more() 
     {
        if (Greenfoot.mouseClicked(this)) 
-            getWorld().addObject(new JellyBlock(),0,0);       
+            getWorld().addObject(new JellyBlock(),300,200);       
     }
 }
