@@ -1,4 +1,5 @@
 #Greenfoot project file
+class.SlimeLand.image=galaxy-war-11.jpg
 dependency1.from=SlimeLand
 dependency1.to=JellyBlock
 dependency1.type=UsesDependency
@@ -9,7 +10,7 @@ editor.fx.0.height=739
 editor.fx.0.width=816
 editor.fx.0.x=552
 editor.fx.0.y=100
-height=585
+height=1056
 package.numDependencies=2
 package.numTargets=2
 project.charset=windows-1252
@@ -43,7 +44,7 @@ target2.width=80
 target2.x=160
 target2.y=10
 version=3.0.0
-width=1275
+width=1936
 world.lastInstantiated=SlimeLand
-xPosition=220
-yPosition=213
+xPosition=-8
+yPosition=-8

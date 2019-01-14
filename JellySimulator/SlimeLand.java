@@ -13,7 +13,6 @@ public class SlimeLand  extends World
     public boolean isGround = false;
     GreenfootImage background = new GreenfootImage("background1.png");
     GreenfootImage mask = new GreenfootImage("mask1.png");
-    GreenfootImage car = new GreenfootImage("mask1.png");
 
     /**
      * Constructor for objects of class JellyWorld.
@@ -30,8 +29,6 @@ public class SlimeLand  extends World
     public void act()
     {
         setBackground(background);
-        car.setColor(Color.WHITE);
-        car.fillRect(0,0,600,400);
     }
     
     public void isGround(int a, int b, int c, int d)
