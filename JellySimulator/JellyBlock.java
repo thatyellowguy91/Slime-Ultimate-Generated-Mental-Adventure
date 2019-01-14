@@ -19,7 +19,7 @@ public class JellyBlock  extends Actor
     int[] conect2 = {1,2,3,0,2,3}; //1,2,3,0,2,3 for sq
     double[] dl = new double[6];
 
-    public Car(){
+    public JellyBlock(){
         setImage(screen);
         for(int f=0;f<6;f++){
             dl[f] = Math.sqrt(Math.pow((x[conect1[f]] - x[conect2[f]]),2)+Math.pow((y[conect1[f]] - y[conect2[f]]),2));
@@ -33,19 +33,19 @@ public class JellyBlock  extends Actor
         screen.clear();
         for(int f=0;f<6;f++)
         {
-            ((JellyWorld) getWorld()).isGround((int)(x[conect1[f]]),(int)(y[conect1[f]]),(int)(x[conect2[f]]),(int)(y[conect2[f]]));
+            ((SlimeLand) getWorld()).isGround((int)(x[conect1[f]]),(int)(y[conect1[f]]),(int)(x[conect2[f]]),(int)(y[conect2[f]]));
             screen.setColor(Color.RED);
             screen.drawLine((int)(x[conect1[f]]),(int)(y[conect1[f]]),(int)(x[conect2[f]]),(int)(y[conect2[f]]));
         }
         
         for(int f=0;f<4;f++){
             
-             if(((JellyWorld) getWorld()).isGround==false)
+             if(((SlimeLand) getWorld()).isGround==false)
              {
                 yv[f] = yv[f]+.2;
             }
             
-            if(((JellyWorld) getWorld()).isGround==true)
+            if(((SlimeLand) getWorld()).isGround==true)
              {
                 yv[f] = yv[f]-.3;
             }
@@ -54,7 +54,7 @@ public class JellyBlock  extends Actor
                 xv[f] = xv[f]+.2;
             if(Greenfoot.isKeyDown("left"))
                 xv[f] = xv[f]-.2;
-            if(Greenfoot.isKeyDown("up") && ((JellyWorld) getWorld()).isGround==true)
+            if(Greenfoot.isKeyDown("up") && ((SlimeLand) getWorld()).isGround==true)
             {
                 yv[f] = - 7;
                 y[f] = y[f] - 7;
