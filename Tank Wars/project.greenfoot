@@ -2,6 +2,7 @@
 class.Level0.image=galaxy-wallpaper-11.jpg
 class.Level1.image=galaxy-space-animation.gif
 class.Play.image=cooltext311800519860148.png
+class.Player1.image=tank1.png
 class.tank.image=cooltext311801347324366.png
 dependency1.from=Level2
 dependency1.to=lose
