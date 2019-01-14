@@ -7,7 +7,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Car  extends Actor
+public class JellyBlock  extends Actor
 {
     GreenfootImage screen = new GreenfootImage(600, 400);
     double[] x = {225,275,275,225};

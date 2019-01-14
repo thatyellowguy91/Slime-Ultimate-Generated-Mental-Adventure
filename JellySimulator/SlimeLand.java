@@ -7,7 +7,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class JellyWorld  extends World
+public class SlimeLand  extends World
 {
 
     public boolean isGround = false;
@@ -19,7 +19,7 @@ public class JellyWorld  extends World
      * Constructor for objects of class JellyWorld.
      * 
      */
-    public JellyWorld()
+    public SlimeLand()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1, false); 
