@@ -4,10 +4,10 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * Write a description of class spring here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Jordan Hanna and Lawrence Huang) 
+ * @version (8.00.81.35)
  */
-public class JellyBlock  extends Actor
+public class JellyBlock extends Actor
 {
     GreenfootImage screen = new GreenfootImage(600, 400);
     double[] x = {225,275,275,225};
