@@ -24,6 +24,7 @@ public class SlimeLand  extends World
         super(600, 400, 1, false); 
 
         addObject(new JellyBlock(), 300, 200);
+        addObject(new More(),500, 350);
     }
     
     public void act()
