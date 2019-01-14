@@ -12,9 +12,9 @@ public class More extends Actor
      * Act - do whatever the More wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    public void act() 
+    public void more() 
     {
-       
-        }
-        
-    }    
+       if (Greenfoot.mouseClicked(this)) 
+       getWorld().addObject(new JellyBlock(),0,0);       
+    }
+}
