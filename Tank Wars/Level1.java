@@ -11,7 +11,7 @@ public class Level1 extends World
     
     public Level1()
     {    
-        super(800, 500, 1); 
+        super(498, 260, 1); 
         prepare();
         show();
     }

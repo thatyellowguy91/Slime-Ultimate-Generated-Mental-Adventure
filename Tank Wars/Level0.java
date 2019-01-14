@@ -12,8 +12,7 @@ public class Level0 extends World
       Play myPlay = new Play();
       addObject(myPlay,400,350);
       
-      lev1 mylev1 = new lev1();
-      addObject(mylev1, 650, 80);
+      
       lev2 mylev2 = new lev2();
       addObject(mylev2, 650, 160);
       lev3 mylev3 = new lev3();
