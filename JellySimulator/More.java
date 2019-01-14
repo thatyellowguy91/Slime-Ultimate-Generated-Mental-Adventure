@@ -14,7 +14,10 @@ public class More extends Actor
      */
     public void act() 
     {
-       if (Greenfoot.mouseClicked(this)) 
+        for(int i = 0; i < 10; i++)
+        {
+            if (Greenfoot.mouseClicked(this)) 
             getWorld().addObject(new JellyBlock(),300,200);
+        }
     }
 }
