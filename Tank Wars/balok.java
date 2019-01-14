@@ -3,7 +3,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * Write a description of class balok here.
  * 
- * @author (your name) 
+ * @author (Jordan Hanna and Lawrence Huang) 
  * @version (a version number or a date)
  */
 public class balok extends Object

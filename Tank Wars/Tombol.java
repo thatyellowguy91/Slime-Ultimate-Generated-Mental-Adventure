@@ -3,8 +3,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * Write a description of class Tombol here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Jordan Hanna and Lawrence Huang) 
+ * @version (8.00.81.35)
  */
 public class Tombol extends Actor
 {

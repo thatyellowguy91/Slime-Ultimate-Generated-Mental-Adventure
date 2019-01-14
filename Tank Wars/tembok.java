@@ -3,8 +3,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * Write a description of class tembok here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Jordan Hanna and Lawrence Huang) 
+ * @version (1.0000000000000000000000000000000.1)
  */
 public class tembok extends Object
 {
